@@ -109,9 +109,7 @@ void draw() {
       image(enemyImg,enemyX,enemyY);
       enemyX =ix+(enemyW+spacing)*row;
     }
-    println(enemyX);
-    println(enemyY);
-
+   
     if(enemyX>=968){
       ix = -400;
       enemyY = floor(random(0,height-enemyH));
